@@ -45,12 +45,11 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
 
     @Override
     public void setCurrentUsername(String name) {
-        // TODO: save the current username for the login/logout use cases.
+        currentUsername = name;
     }
 
     @Override
     public String getCurrentUsername() {
-        // TODO: return the current username for the login/logout use cases.
-        return null;
+        return currentUsername;
     }
 }
