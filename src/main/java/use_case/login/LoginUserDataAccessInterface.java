@@ -26,4 +26,16 @@ public interface LoginUserDataAccessInterface {
      * @return the user with the given username
      */
     User get(String username);
+
+    /**
+     * Saves the user.
+     * @param username the user to save
+     */
+    void setCurrentUsername(String username);
+
+    /**
+     * Saves the user.
+     * @return true if a user with the given username exists; false otherwise
+     */
+    String getCurrentUsername();
 }

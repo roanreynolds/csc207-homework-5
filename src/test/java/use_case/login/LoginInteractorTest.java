@@ -10,8 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LoginInteractorTest {
 
-    // TODO: make a copy of this test method and follow the instructions in the README to test that
-    //       a successful login records the current user in the data access object.
     @Test
     void successTest() {
         LoginInputData inputData = new LoginInputData("Paul", "password");
